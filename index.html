@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body {
+                background-color: grey;
+            }
+        .form-group {
+                margin-bottom: 15px; /* Added for better spacing */
+            }
+            .button-group {
+                margin-top: 20px; /* Added for better spacing */
+            }
+        </style>
+    </head>
+        <title>User Registation Form</title>
+    <body>
+        <h1 style="color: blue;">IYF SEASON 10 APPLICATION FORM</h1>
+        <form action="#" method="post"> <!-- action="#" for demonstration, replace with actual endpoint -->
+      <fieldset style="background-color: #f0f0f0; border-color: blue;">
+        <legend>Personal Information</legend>
+        <label for="name"> Name:</labelpvvpvpvpvvpjbvpp><br>
+        <input type="text" id=" name" name=" name"><br><br>
+        <label for="dob">Date Of Birth:mm/dd/yyyy</label><br>
+        <input type="date" id="dob" name="dob"><br><br>
+        <label for="age">Age:</label><br>
+        <input type="number" id="age" name="age"><br><br> 
+        
+        <label id="Gender">Gender:</label><br><br>
+              <input type="radio" id="male" name="gender" value="male">  
+    <label for="male">Male</label><br><br>
+    <input type="radio" id="female" name="gender" value="female">
+    <label for="female">Female</label><br><br>
+    <input type="radio" id="other" name="gender" value="other">
+    <label for="other">Other</label><br><br>
+        
+        <label for="profilephoto">profilephoto;</label>
+        <input type="file" id='profilephoto' Name='profilephoto'><br><br>
+
+        <legend>Contant & Address Information</legend>
+        <label for="email">Email Address:</Address></label><br>
+        <input type="email"id="email" name="email"><br><br>
+
+        <label for="phone">phone Number:</label><br>
+        <input type="tel" id="phone_number" name="phone"><br><br>
+
+        <label for="website">personal website:</label>
+        <input type="url" id="website" name="website" placeholder="https://ur.com"><br><br>
+
+   <label for="location">location:</label><br>
+        <select id="how_heard" name="how_heard">
+            <option value="choose your location">choose your location</option>
+            <option value="Mathare">Mathare</option>
+            <option value="Mwiki">Mwiki</option>
+            <option value="CBD">CBD</option>
+            <option value="Kasarani">Kasarani</option>
+            <option value="Githurai">Githurai</option>
+        <!--add more option as needed-->
+    </select><br><br>
+        </fieldset>
+        <fieldset style="background-color: #f0f0f0; border-color: blue;">
+        <legend>preference & interest</legend>
+            <div class="form-group">
+        <label for="how_heard">Courses in Season 10:</label><br>
+        <select id="how_heard" name="how_heard">
+            <option value="choose your course">choose your course</option>
+            <option value="computer programing">computer programing</option>
+            <option value="UI/UX">UI/UX</option>
+            <option value="English">English</option>
+            <option value="Music">Music</option>
+            <option value="Mind enducation">mind enducation</option>
+            <option value="AI">AI</option>
+            <option value="Dance">Dance</option>
+            <option value="German languange">German language</option>
+            <option value="chinise">chinise</option>
+        </select>
+    </div>
+            <div class="form-group">
+                    <label for="password">Password:</label><br>
+                    <input type="password" id="password" name="password" required>
+                </div>
+            <div class="form-group">
+                    <label for="confirm_password">Confirm Password:</label><br>
+                    <input type="password" id="confirm_password" name="confirm_password" required>
+                </div>
+                <div id="passwordMatchMessage" style="color: red;"></div> <!-- Added for password match message -->
+            </fieldset>
+
+       </fieldset>
+       <fieldset style="background-color: #f0f0f0; border-color: blue;">
+        <legend>Feedback & Additional Information</legend>
+        <div class="form-group">
+            <label for="about_yourself">Tell us about yourself:</label>
+            <textarea id="about_yourself" name="about_yourself" rows="5" placeholder="Write a brief description about yourself..."></textarea>
+        </div>
+        <div class="form-group">
+            <label for="suggestions">Suggestions for improvement:</label>
+            <textarea id="suggestions" name="suggestions" rows="3" placeholder="Any suggestions or feedback..."></textarea>
+        </div>
+        <div class="form-group">
+        <label for="reg_date_time">Registration Date & Time:</label>
+        <input type="datetime-local" id="reg_date_time" name="registration_date_time">
+    </div>
+
+    <div class="form-group">
+        <label for="how_heard">How did you hear about us?</label><br>
+        <select id="how_heard" name="how_heard">
+            <option value="">Select Source</option>
+            <option value="social_media">Social Media</option>
+            <option value="friend">Friend/Family</option>
+            <option value="search_engine">Search Engine</option>
+            <option value="other">Other</option>
+        </select>
+    </div>
+
+    <div class="form-group">
+        <label for="Next of kings no & photo">Upload next of kings number & photo (optional):</label>
+        <input type="file" id="Next of kings no & photo" name="Next of kings no & photo">
+    </div>
+    <div class="form-group">
+        <input type="checkbox" id="iyf website" name="iyf website">
+        <label for="iyf website">Subscribe to iyf website</label>
+    </div>
+    <div class="form-group">
+        <input type="checkbox" id="iyf terms" name="iyf terms" required>
+        <label for="iyf terms">I agree to iyf Terms and Conditions </label>
+    </div>
+    <div class="form-group">
+        <input type="checkbox" id="privacy" name="privacy" required>
+        <label for="privacy">I agree to the Privacy Policy</label>
+    </div>
+
+    <div class="button-group">
+        <button type="submit">Register</button>
+        <button type="reset">Clear Form</button>
+    </div>
+
+</body>
+    </fieldset> 
+
+        </form>
+    </body>
+    </html>
+
+ 
+
